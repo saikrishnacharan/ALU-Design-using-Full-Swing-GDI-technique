@@ -6,5 +6,7 @@ Here, in this paper we first initially talk about various logic design technique
 The files here contain LTSpice models of Logical Block, muliplexers and Arithmetic Block of ALU using GDI technique developed from scratch.
 
 Logical Block components: - AND XOR NOT OR
+
 Arithmetic Block components: - Full Adder
+
 Multiplexers : 4X1  and 2X1 

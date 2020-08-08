@@ -13,3 +13,5 @@ Multiplexers : 4X1  and 2X1
 
 
 Using TSMC180nm technology 
+
+Detailed explanation can be seen in ALU_Digital_VLSI_Design_Project2_Final file

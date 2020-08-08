@@ -1,0 +1,641 @@
+Stray ".ends" card: .ends 2x1_mux
+Stray ".ends" card: .ends full_adder
+Stray ".ends" card: .ends not
+Stray ".ends" card: .ends not_gate
+Stray ".ends" card: .ends and_2_inp
+Stray ".ends" card: .ends or_2_inp
+Stray ".ends" card: .ends xor_2_inp
+Circuit: * C:\Users\charan\Documents\LTspiceXVII\examples\Educational\proj2\4BIT_ALU_Check_Ckt.asc
+
+Limiting rise time of source v12 to 0.0002
+Limiting fall time of source v12 to 0.0002
+Limiting rise time of source v11 to 0.0001
+Limiting fall time of source v11 to 0.0001
+Limiting rise time of source v10 to 5e-005
+Limiting fall time of source v10 to 5e-005
+WARNING: Node X1:X1:X1:X1:X1:N001 is floating.
+WARNING: Node X1:X1:X1:X2:X1:N001 is floating.
+WARNING: Node X1:X1:X1:X3:X1:N001 is floating.
+WARNING: Node X1:X1:X2:X1:NC_01 is floating.
+WARNING: Node X1:X1:X2:X1:NC_02 is floating.
+WARNING: Node X1:X1:X2:X2:NC_01 is floating.
+WARNING: Node X1:X1:X2:X2:NC_02 is floating.
+WARNING: Node X1:X1:X2:X3:NC_01 is floating.
+WARNING: Node X1:X1:X2:X3:NC_02 is floating.
+WARNING: Node X1:X1:X3:AND:X1:N001 is floating.
+WARNING: Node X1:X1:X3:OR:X1:N001 is floating.
+WARNING: Node X1:X1:X3:XOR:X1:N001 is floating.
+WARNING: Node X1:X1:X3:NOT:N001 is floating.
+WARNING: Node X1:X1:X4:X1:X1:N001 is floating.
+WARNING: Node X1:X1:X4:X2:X1:N001 is floating.
+WARNING: Node X1:X1:X4:X3:X1:N001 is floating.
+WARNING: Node X1:X1:X5:X1:N001 is floating.
+WARNING: Node X1:X1:X6:NC_01 is floating.
+WARNING: Node X1:X1:X6:NC_02 is floating.
+WARNING: Node X1:X2:X1:X1:X1:N001 is floating.
+WARNING: Node X1:X2:X1:X2:X1:N001 is floating.
+WARNING: Node X1:X2:X1:X3:X1:N001 is floating.
+WARNING: Node X1:X2:X2:X1:NC_01 is floating.
+WARNING: Node X1:X2:X2:X1:NC_02 is floating.
+WARNING: Node X1:X2:X2:X2:NC_01 is floating.
+WARNING: Node X1:X2:X2:X2:NC_02 is floating.
+WARNING: Node X1:X2:X2:X3:NC_01 is floating.
+WARNING: Node X1:X2:X2:X3:NC_02 is floating.
+WARNING: Node X1:X2:X3:AND:X1:N001 is floating.
+WARNING: Node X1:X2:X3:OR:X1:N001 is floating.
+WARNING: Node X1:X2:X3:XOR:X1:N001 is floating.
+WARNING: Node X1:X2:X3:NOT:N001 is floating.
+WARNING: Node X1:X2:X4:X1:X1:N001 is floating.
+WARNING: Node X1:X2:X4:X2:X1:N001 is floating.
+WARNING: Node X1:X2:X4:X3:X1:N001 is floating.
+WARNING: Node X1:X2:X5:X1:N001 is floating.
+WARNING: Node X1:X2:X6:NC_01 is floating.
+WARNING: Node X1:X2:X6:NC_02 is floating.
+WARNING: Node X1:X3:X1:X1:X1:N001 is floating.
+WARNING: Node X1:X3:X1:X2:X1:N001 is floating.
+WARNING: Node X1:X3:X1:X3:X1:N001 is floating.
+WARNING: Node X1:X3:X2:X1:NC_01 is floating.
+WARNING: Node X1:X3:X2:X1:NC_02 is floating.
+WARNING: Node X1:X3:X2:X2:NC_01 is floating.
+WARNING: Node X1:X3:X2:X2:NC_02 is floating.
+WARNING: Node X1:X3:X2:X3:NC_01 is floating.
+WARNING: Node X1:X3:X2:X3:NC_02 is floating.
+WARNING: Node X1:X3:X3:AND:X1:N001 is floating.
+WARNING: Node X1:X3:X3:OR:X1:N001 is floating.
+WARNING: Node X1:X3:X3:XOR:X1:N001 is floating.
+WARNING: Node X1:X3:X3:NOT:N001 is floating.
+WARNING: Node X1:X3:X4:X1:X1:N001 is floating.
+WARNING: Node X1:X3:X4:X2:X1:N001 is floating.
+WARNING: Node X1:X3:X4:X3:X1:N001 is floating.
+WARNING: Node X1:X3:X5:X1:N001 is floating.
+WARNING: Node X1:X3:X6:NC_01 is floating.
+WARNING: Node X1:X3:X6:NC_02 is floating.
+WARNING: Node X1:X4:X1:X1:X1:N001 is floating.
+WARNING: Node X1:X4:X1:X2:X1:N001 is floating.
+WARNING: Node X1:X4:X1:X3:X1:N001 is floating.
+WARNING: Node X1:X4:X2:X1:NC_01 is floating.
+WARNING: Node X1:X4:X2:X1:NC_02 is floating.
+WARNING: Node X1:X4:X2:X2:NC_01 is floating.
+WARNING: Node X1:X4:X2:X2:NC_02 is floating.
+WARNING: Node X1:X4:X2:X3:NC_01 is floating.
+WARNING: Node X1:X4:X2:X3:NC_02 is floating.
+WARNING: Node X1:X4:X3:AND:X1:N001 is floating.
+WARNING: Node X1:X4:X3:OR:X1:N001 is floating.
+WARNING: Node X1:X4:X3:XOR:X1:N001 is floating.
+WARNING: Node X1:X4:X3:NOT:N001 is floating.
+WARNING: Node X1:X4:X4:X1:X1:N001 is floating.
+WARNING: Node X1:X4:X4:X2:X1:N001 is floating.
+WARNING: Node X1:X4:X4:X3:X1:N001 is floating.
+WARNING: Node X1:X4:X5:X1:N001 is floating.
+WARNING: Node X1:X4:X6:NC_01 is floating.
+WARNING: Node X1:X4:X6:NC_02 is floating.
+WARNING: Node X1:X5:X1:N001 is floating.
+
+WARNING: Less than two connections to node X1:X1:X1:X1:X1:N001.  This node is used by M:X1:X1:X1:X1:X1:1.
+WARNING: Less than two connections to node X1:X1:X1:X2:X1:N001.  This node is used by M:X1:X1:X1:X2:X1:1.
+WARNING: Less than two connections to node X1:X1:X1:X3:X1:N001.  This node is used by M:X1:X1:X1:X3:X1:1.
+WARNING: Less than two connections to node X1:X1:X2:X1:NC_01.  This node is used by M:X1:X1:X2:X1:1.
+WARNING: Less than two connections to node X1:X1:X2:X1:NC_02.  This node is used by M:X1:X1:X2:X1:2.
+WARNING: Less than two connections to node X1:X1:X2:X2:NC_01.  This node is used by M:X1:X1:X2:X2:1.
+WARNING: Less than two connections to node X1:X1:X2:X2:NC_02.  This node is used by M:X1:X1:X2:X2:2.
+WARNING: Less than two connections to node X1:X1:X2:X3:NC_01.  This node is used by M:X1:X1:X2:X3:1.
+WARNING: Less than two connections to node X1:X1:X2:X3:NC_02.  This node is used by M:X1:X1:X2:X3:2.
+WARNING: Less than two connections to node X1:X1:X3:AND:X1:N001.  This node is used by M:X1:X1:X3:AND:X1:1.
+WARNING: Less than two connections to node X1:X1:X3:OR:X1:N001.  This node is used by M:X1:X1:X3:OR:X1:1.
+WARNING: Less than two connections to node X1:X1:X3:XOR:NC_01.  This node is used by M:X1:X1:X3:XOR:X1:1.
+WARNING: Less than two connections to node X1:X1:X3:XOR:X1:N001.  This node is used by M:X1:X1:X3:XOR:X1:1.
+WARNING: Less than two connections to node X1:X1:X3:NOT:N001.  This node is used by M:X1:X1:X3:NOT:1.
+WARNING: Less than two connections to node X1:X1:X4:X1:X1:N001.  This node is used by M:X1:X1:X4:X1:X1:1.
+WARNING: Less than two connections to node X1:X1:X4:X2:X1:N001.  This node is used by M:X1:X1:X4:X2:X1:1.
+WARNING: Less than two connections to node X1:X1:X4:X3:X1:N001.  This node is used by M:X1:X1:X4:X3:X1:1.
+WARNING: Less than two connections to node X1:X1:X5:X1:N001.  This node is used by M:X1:X1:X5:X1:1.
+WARNING: Less than two connections to node X1:X1:X6:NC_01.  This node is used by M:X1:X1:X6:1.
+WARNING: Less than two connections to node X1:X1:X6:NC_02.  This node is used by M:X1:X1:X6:2.
+WARNING: Less than two connections to node X1:X2:X1:X1:X1:N001.  This node is used by M:X1:X2:X1:X1:X1:1.
+WARNING: Less than two connections to node X1:X2:X1:X2:X1:N001.  This node is used by M:X1:X2:X1:X2:X1:1.
+WARNING: Less than two connections to node X1:X2:X1:X3:X1:N001.  This node is used by M:X1:X2:X1:X3:X1:1.
+WARNING: Less than two connections to node X1:X2:X2:X1:NC_01.  This node is used by M:X1:X2:X2:X1:1.
+WARNING: Less than two connections to node X1:X2:X2:X1:NC_02.  This node is used by M:X1:X2:X2:X1:2.
+WARNING: Less than two connections to node X1:X2:X2:X2:NC_01.  This node is used by M:X1:X2:X2:X2:1.
+WARNING: Less than two connections to node X1:X2:X2:X2:NC_02.  This node is used by M:X1:X2:X2:X2:2.
+WARNING: Less than two connections to node X1:X2:X2:X3:NC_01.  This node is used by M:X1:X2:X2:X3:1.
+WARNING: Less than two connections to node X1:X2:X2:X3:NC_02.  This node is used by M:X1:X2:X2:X3:2.
+WARNING: Less than two connections to node X1:X2:X3:AND:X1:N001.  This node is used by M:X1:X2:X3:AND:X1:1.
+WARNING: Less than two connections to node X1:X2:X3:OR:X1:N001.  This node is used by M:X1:X2:X3:OR:X1:1.
+WARNING: Less than two connections to node X1:X2:X3:XOR:NC_01.  This node is used by M:X1:X2:X3:XOR:X1:1.
+WARNING: Less than two connections to node X1:X2:X3:XOR:X1:N001.  This node is used by M:X1:X2:X3:XOR:X1:1.
+WARNING: Less than two connections to node X1:X2:X3:NOT:N001.  This node is used by M:X1:X2:X3:NOT:1.
+WARNING: Less than two connections to node X1:X2:X4:X1:X1:N001.  This node is used by M:X1:X2:X4:X1:X1:1.
+WARNING: Less than two connections to node X1:X2:X4:X2:X1:N001.  This node is used by M:X1:X2:X4:X2:X1:1.
+WARNING: Less than two connections to node X1:X2:X4:X3:X1:N001.  This node is used by M:X1:X2:X4:X3:X1:1.
+WARNING: Less than two connections to node X1:X2:X5:X1:N001.  This node is used by M:X1:X2:X5:X1:1.
+WARNING: Less than two connections to node X1:X2:X6:NC_01.  This node is used by M:X1:X2:X6:1.
+WARNING: Less than two connections to node X1:X2:X6:NC_02.  This node is used by M:X1:X2:X6:2.
+WARNING: Less than two connections to node X1:X3:X1:X1:X1:N001.  This node is used by M:X1:X3:X1:X1:X1:1.
+WARNING: Less than two connections to node X1:X3:X1:X2:X1:N001.  This node is used by M:X1:X3:X1:X2:X1:1.
+WARNING: Less than two connections to node X1:X3:X1:X3:X1:N001.  This node is used by M:X1:X3:X1:X3:X1:1.
+WARNING: Less than two connections to node X1:X3:X2:X1:NC_01.  This node is used by M:X1:X3:X2:X1:1.
+WARNING: Less than two connections to node X1:X3:X2:X1:NC_02.  This node is used by M:X1:X3:X2:X1:2.
+WARNING: Less than two connections to node X1:X3:X2:X2:NC_01.  This node is used by M:X1:X3:X2:X2:1.
+WARNING: Less than two connections to node X1:X3:X2:X2:NC_02.  This node is used by M:X1:X3:X2:X2:2.
+WARNING: Less than two connections to node X1:X3:X2:X3:NC_01.  This node is used by M:X1:X3:X2:X3:1.
+WARNING: Less than two connections to node X1:X3:X2:X3:NC_02.  This node is used by M:X1:X3:X2:X3:2.
+WARNING: Less than two connections to node X1:X3:X3:AND:X1:N001.  This node is used by M:X1:X3:X3:AND:X1:1.
+WARNING: Less than two connections to node X1:X3:X3:OR:X1:N001.  This node is used by M:X1:X3:X3:OR:X1:1.
+WARNING: Less than two connections to node X1:X3:X3:XOR:NC_01.  This node is used by M:X1:X3:X3:XOR:X1:1.
+WARNING: Less than two connections to node X1:X3:X3:XOR:X1:N001.  This node is used by M:X1:X3:X3:XOR:X1:1.
+WARNING: Less than two connections to node X1:X3:X3:NOT:N001.  This node is used by M:X1:X3:X3:NOT:1.
+WARNING: Less than two connections to node X1:X3:X4:X1:X1:N001.  This node is used by M:X1:X3:X4:X1:X1:1.
+WARNING: Less than two connections to node X1:X3:X4:X2:X1:N001.  This node is used by M:X1:X3:X4:X2:X1:1.
+WARNING: Less than two connections to node X1:X3:X4:X3:X1:N001.  This node is used by M:X1:X3:X4:X3:X1:1.
+WARNING: Less than two connections to node X1:X3:X5:X1:N001.  This node is used by M:X1:X3:X5:X1:1.
+WARNING: Less than two connections to node X1:X3:X6:NC_01.  This node is used by M:X1:X3:X6:1.
+WARNING: Less than two connections to node X1:X3:X6:NC_02.  This node is used by M:X1:X3:X6:2.
+WARNING: Less than two connections to node X1:X4:X1:X1:X1:N001.  This node is used by M:X1:X4:X1:X1:X1:1.
+WARNING: Less than two connections to node X1:X4:X1:X2:X1:N001.  This node is used by M:X1:X4:X1:X2:X1:1.
+WARNING: Less than two connections to node X1:X4:X1:X3:X1:N001.  This node is used by M:X1:X4:X1:X3:X1:1.
+WARNING: Less than two connections to node X1:X4:X2:X1:NC_01.  This node is used by M:X1:X4:X2:X1:1.
+WARNING: Less than two connections to node X1:X4:X2:X1:NC_02.  This node is used by M:X1:X4:X2:X1:2.
+WARNING: Less than two connections to node X1:X4:X2:X2:NC_01.  This node is used by M:X1:X4:X2:X2:1.
+WARNING: Less than two connections to node X1:X4:X2:X2:NC_02.  This node is used by M:X1:X4:X2:X2:2.
+WARNING: Less than two connections to node X1:X4:X2:X3:NC_01.  This node is used by M:X1:X4:X2:X3:1.
+WARNING: Less than two connections to node X1:X4:X2:X3:NC_02.  This node is used by M:X1:X4:X2:X3:2.
+WARNING: Less than two connections to node X1:X4:X3:AND:X1:N001.  This node is used by M:X1:X4:X3:AND:X1:1.
+WARNING: Less than two connections to node X1:X4:X3:OR:X1:N001.  This node is used by M:X1:X4:X3:OR:X1:1.
+WARNING: Less than two connections to node X1:X4:X3:XOR:NC_01.  This node is used by M:X1:X4:X3:XOR:X1:1.
+WARNING: Less than two connections to node X1:X4:X3:XOR:X1:N001.  This node is used by M:X1:X4:X3:XOR:X1:1.
+WARNING: Less than two connections to node X1:X4:X3:NOT:N001.  This node is used by M:X1:X4:X3:NOT:1.
+WARNING: Less than two connections to node X1:X4:X4:X1:X1:N001.  This node is used by M:X1:X4:X4:X1:X1:1.
+WARNING: Less than two connections to node X1:X4:X4:X2:X1:N001.  This node is used by M:X1:X4:X4:X2:X1:1.
+WARNING: Less than two connections to node X1:X4:X4:X3:X1:N001.  This node is used by M:X1:X4:X4:X3:X1:1.
+WARNING: Less than two connections to node X1:X4:X5:X1:N001.  This node is used by M:X1:X4:X5:X1:1.
+WARNING: Less than two connections to node X1:X4:X6:NC_01.  This node is used by M:X1:X4:X6:1.
+WARNING: Less than two connections to node X1:X4:X6:NC_02.  This node is used by M:X1:X4:X6:2.
+WARNING: Less than two connections to node X1:X5:X1:N001.  This node is used by M:X1:X5:X1:1.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Early termination of direct N-R iteration.
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+Gmin = 0.115292
+Gmin = 0.0123794
+Gmin = 0.00132923
+Gmin = 0.000142725
+Gmin = 1.5325e-005
+Gmin = 1.6455e-006
+Gmin = 1.76685e-007
+Gmin = 1.89714e-008
+Gmin = 2.03704e-009
+Gmin = 2.18725e-010
+Gmin = 2.34854e-011
+Gmin = 2.52173e-012
+Gmin = 2.70769e-013
+Gmin = 0
+Gmin stepping succeeded in finding the operating point.
+
+
+temp1: v(g1)=0.9 AT 0.00157679
+
+
+Date: Wed Apr 15 21:26:46 2020
+Total elapsed time: 7.325 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 16883
+traniter = 16418
+tranpoints = 3871
+accept = 3124
+rejected = 747
+matrix size = 221
+fillins = 26
+solver = Normal
+Thread vector: 381.2/273.2[4] 66.0/51.9[4] 23.3/18.7[4] 1.8/5.8[1]  2592/500
+Matrix Compiler1: 27.89 KB object code size  16.4/6.1/[2.6]
+Matrix Compiler2: 33.59 KB object code size  10.6/9.2/[2.2]
+

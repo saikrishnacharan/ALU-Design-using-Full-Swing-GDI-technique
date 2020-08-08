@@ -10,3 +10,6 @@ Logical Block components: - AND XOR NOT OR
 Arithmetic Block components: - Full Adder
 
 Multiplexers : 4X1  and 2X1 
+
+
+Using TSMC180nm technology 
